@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return{'message': 'Hello Data!'}
+    return{'message': 'Hello Data! Updated!'}
 
 @app.post("/")
 def calc(data: Data):
